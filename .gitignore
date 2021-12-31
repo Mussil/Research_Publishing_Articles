@@ -1,0 +1,4 @@
+
+#ignore data base files, too big to upload
+*.json
+*.xml
