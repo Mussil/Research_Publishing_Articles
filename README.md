@@ -106,8 +106,8 @@ The purpose of the full dictionary is to keep all the data required for the shor
 
 ### Data based on population:
 The files:<br>
-*`ArXivDataOfAllPopBycategoryByYear.json`  
-*`DBLP DataOfAllPopBycategoryByYear.json` 
+* `ArXivDataOfAllPopBycategoryByYear.json`  
+* `DBLP DataOfAllPopBycategoryByYear.json` 
 <br>in the foramt of:
 ```
     {
