@@ -9,9 +9,6 @@ The basic data files are too large and therefore have not been uploaded to Githa
 * Sorted the data by the `versions` `version` :`v1` `created` field
 
 
-
-----------------------------
-
 ### Preprocessing:
 1. Make sure databases are in the `data/originalData` folder
     1. The `arxiv-metadata-oai-snapshot.json`
