@@ -57,7 +57,7 @@ The basic data files are too large and therefore have not been uploaded to Githa
 **Meaning:**
 * **numArticle** : number of articles written by this author this year
 * **numUniqueAuthors** : number of co-writers this year for this author
-    <br>*Unique* - indicates that if the co-author has participated in several articles he is counted once
+    <br>*Unique* - indicates that if a co-author has participated in several articles he is counted once
 * **newAuthors** : number of authors for this year who wrote an article together with this author for the first time
 * **numNewArticleAuthors** : number of articles for this author for this year in which there are new writers
 
