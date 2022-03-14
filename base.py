@@ -17,10 +17,10 @@ def createDataByPop(source_dict,checkedYearInt):
     {
         <population name> :
             {
-                <yearsArticle> : [ ... int ...],
-                <yearsUnique> : [ ... int ...],
-                <yearsNewAuthors> :  [ ... int ...],
-                <yearsNewArticleAuthors> : [ ... int ... ]
+                <yearsArticle> : { <year> : [ ... int ... ] },
+                <yearsUnique> : { <year> : [ ... int ... ] },
+                <yearsNewAuthors> :  { <year> : [ ... int ... ] },
+                <yearsNewArticleAuthors> : { <year> : [ ... int ... ] }
             }
     }
 
@@ -89,3 +89,6 @@ if __name__=='__main__':
     source_dict = 'dicts/dictArxivShort.json'
     dict=createDataByPop(source_dict,checkedYearInt=2010)
     print(dict)
+    # add
+    with open('ArXivDataOfAllPopBycategoryByYear.json', 'w') as file:
+        file.write(json.dumps(dict))  # use `json.loads` to do the reverse
