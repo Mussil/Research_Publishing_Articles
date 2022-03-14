@@ -86,9 +86,10 @@ def createDataByPop(source_dict,checkedYearInt):
 
 
 if __name__=='__main__':
-    source_dict = 'dicts/dictArxivShort.json'
+    source_dict = 'dicts/dictDBLPShort.json'
+    dest='DBLPDataOfAllPopBycategoryByYear.json'
     dict=createDataByPop(source_dict,checkedYearInt=2010)
     print(dict)
     # add
-    with open('ArXivDataOfAllPopBycategoryByYear.json', 'w') as file:
+    with open(dest, 'w') as file:
         file.write(json.dumps(dict))  # use `json.loads` to do the reverse
