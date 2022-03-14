@@ -122,7 +122,7 @@ The files:<br>
 ```
 
 
-##File structure
+## Files structure
 ```
 ./
     .gitignore
