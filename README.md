@@ -122,4 +122,34 @@ The files:<br>
 ```
 
 
-
+##File structure
+```
+./
+    .gitignore
+    ArXivDataOfAllPopBycategoryByYear.json
+    base.py
+    DBLPDataOfAllPopBycategoryByYear.json
+    README.md
+    data/
+        modifiedData/
+            arxiv.json
+            dblp.json
+            filteredDBLP.json
+        originalData/
+            arxiv-metadata-oai-snapshot.json
+            dblp.dtd
+            dblp.xml
+        prepareData/
+            filterDBLP.py
+            sortDBLP.py
+            sortModifyArxiv.py
+    dicts/
+        dictArxivFull.json
+        dictArxivShort.json
+        dictDBLPFull.json
+        dictDBLPShort.json
+        createDicts/
+            createDictArxiv.py
+            createDictDBLP.py
+    functions/
+```
