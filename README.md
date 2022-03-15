@@ -21,7 +21,7 @@ The basic data files are too large and therefore have not been uploaded to Githa
    <br>make sure the source and dest are: 
    ```
     source_dict = 'dicts/dictArxivShort.json'
-    dest='ArXivDataOfAllPopBycategoryByYear.json'
+    dest='ArXivDataOfAllPop2010BycategoryByYear.json'
    ```
 ----------------------------
 ## DBLP:
@@ -50,7 +50,7 @@ The basic data files are too large and therefore have not been uploaded to Githa
    <br>make sure the source and dest are: 
    ```
     source_dict = 'dicts/dictDBLPShort.json'
-    dest='DBLPDataOfAllPopBycategoryByYear.json'
+    dest='DBLPDataOfAllPop2010BycategoryByYear.json'
    ```
 
 ## Auxiliary
@@ -97,6 +97,7 @@ The purpose of the full dictionary is to keep all the data required for the shor
 
 
 ### Division into populations:
+The default checked year is 2010, can be changed in the `helpers.py` file
 * Above 1 : 1 to 1000 (included)
 * Above 13 : 13 and up
 * Alph : 1 to 3 (included)
@@ -106,9 +107,9 @@ The purpose of the full dictionary is to keep all the data required for the shor
 
 ### Data based on population:
 The files:<br>
-* `ArXivDataOfAllPopBycategoryByYear.json`  
-* `DBLP DataOfAllPopBycategoryByYear.json` 
-<br>in the foramt of:
+* `ArXivDataOfAllPop2010BycategoryByYear.json`  
+* `DBLP DataOfAllPop2010BycategoryByYear.json` 
+<br>in the format of:
 ```
     {
         <population name> :
@@ -152,4 +153,9 @@ The files:<br>
             createDictArxiv.py
             createDictDBLP.py
     functions/
+        boxPlot.py
+        entropy.py
+    plotsArxiv/
+        boxPlot/  
+        entropy/  
 ```

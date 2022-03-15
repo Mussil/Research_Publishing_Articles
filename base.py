@@ -1,9 +1,6 @@
 import json
 
-
-
-
-
+from helpers import checkedYear
 
 population={'Above 1':(1,1000),'Alph':(1,3),'Beta':(4,6),'Gama':(7,9),'Delta':(10,12),'Above 13':(13,1000)}
 
@@ -87,8 +84,8 @@ def createDataByPop(source_dict,checkedYearInt):
 
 if __name__=='__main__':
     source_dict = 'dicts/dictDBLPShort.json'
-    dest='DBLPDataOfAllPopBycategoryByYear.json'
-    dict=createDataByPop(source_dict,checkedYearInt=2010)
+    dest='DBLPDataOfAllPop2010BycategoryByYear.json'
+    dict=createDataByPop(source_dict,checkedYearInt=checkedYear)
     print(dict)
     # add
     with open(dest, 'w') as file:
