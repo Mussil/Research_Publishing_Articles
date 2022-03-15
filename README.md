@@ -114,10 +114,10 @@ The files:<br>
     {
         <population name> :
             {
-                <yearsArticle> : { <year> : [ ... int ... ] },
-                <yearsUnique> : { <year> : [ ... int ... ] },
-                <yearsNewAuthors> :  { <year> : [ ... int ... ] },
-                <yearsNewArticleAuthors> : { <year> : [ ... int ... ] }
+                'yearsArticle' : { <year> : [ ... int ... ] },
+                'yearsUnique' : { <year> : [ ... int ... ] },
+                'yearsNewAuthors' :  { <year> : [ ... int ... ] },
+                'yearsNewArticleAuthors' : { <year> : [ ... int ... ] }
             }
     }
 ```
