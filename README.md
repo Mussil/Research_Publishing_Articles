@@ -158,4 +158,11 @@ The files:<br>
     plotsArxiv/
         boxPlot/  
         entropy/  
+    plotsDblp/
 ```
+
+##Functions
+The `functions` folder contains various metrics for analyzing the information, both on arXiv and on DBLP
+<br>The results are stored in folders according to the name of the database set in the files:
+* `plotsArxiv`
+* `plotsDblp`
